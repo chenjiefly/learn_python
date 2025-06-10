@@ -35,5 +35,3 @@ def run():
     print(f'求微分e^(x^2)的结果为：{diff(exp(x**2),x)}')
 
     print(f'求1/(1+x**2)的不定积分的结果为：{integrate(1/(1+x**2))}')
-
-
