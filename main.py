@@ -20,10 +20,11 @@ def print_hi(name):
 if __name__ == '__main__':
     sys.stdout.write(f'\n当前工作目录：{os.getcwd()}\n')
     # run_base()
-    # run_numpy()
+    run_numpy()
     # run_matplotlib()  # 2d or 3d or None
     # run_sympy()
-    run_crawler()
+    # run_crawler()
+
 
 else:
     print_hi('other file')
